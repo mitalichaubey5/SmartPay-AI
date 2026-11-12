@@ -1,0 +1,25 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# Java / Maven
+**/target/
+*.class
+
+# Node
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
